@@ -23,6 +23,10 @@ ul {
     font-size: 1rem;
 }
 
+.lead {
+    font-family: 'Cinzel Decorative';
+}
+
 /* HOME */
 
 .home {
@@ -50,8 +54,6 @@ ul {
     font-size: 30px;
     padding: 0.8rem;
 }
-
-
 
 /*  NEWS    */
 
@@ -84,6 +86,7 @@ ul {
 
 .dog h2, h4 {
     margin-bottom: 1.5rem;
+    font-family: 'Cinzel Decorative';
 }
 
 .dog a {
@@ -148,6 +151,7 @@ hr {
 h5 {
     text-align: center;
     padding: 1.3rem;
+    font-family: 'Cinzel Decorative';
 }
 
 .all-dogs {
@@ -171,6 +175,7 @@ h5 {
 H3, h4 {
     text-align: center;
     font-weight: bold;
+    font-family: 'Cinzel Decorative';
 }
 
 .videos iframe {
@@ -247,7 +252,7 @@ footer a {
 
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (min-width:601px) and (max-width: 992px) {
 
     body {
         left: auto;
@@ -260,7 +265,106 @@ footer a {
     .home {
         /* background-image: none; */
         width: 100%;
-        height: 70vh;
+        height: 50vh;
+    }
+
+    .home-bottom {
+        top: 0;
+    }
+
+    .a {
+        width: 100%;
+    }
+    
+    .a p {
+        position: relative;
+        left: 1%;
+    } 
+
+    .contact {
+        margin: 1%;
+        width: 98%;
+    }
+
+    .litter-image img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .litter-image .img-wide{
+        width: 100%;
+        height: auto;
+    }
+
+    .top-puppies {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-puppies img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-img {
+        padding-right: 7%;
+    }
+
+    .gallery-img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        padding: 1%;
+    }
+
+    .news-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .available-img {
+        width: 100%;
+    }
+
+    .all-dogs img {
+        width: 1.9rem;
+        padding: 0.1rem;
+    }
+
+    .dog-header {
+        font-size: 1.4rem;
+    }
+
+    .dog-header a {
+        font-size: 1.4rem;
+    }
+
+    .carousel-item img {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        left: auto;
+    }
+
+    .navbar {
+        height: initial;
+    }
+
+    .home {
+        /* background-image: none; */
+        width: 100%;
+        height: auto;
+    }
+
+    .home-bottom {
+        top: 0;
     }
 
     .a {
