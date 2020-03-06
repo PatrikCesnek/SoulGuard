@@ -1,0 +1,443 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background-color: rgb(172, 173, 173); */
+}
+
+ul {
+    list-style: none;
+    
+}
+
+
+.navbar {
+    height: 1.7rem;
+}
+
+.nav-item {
+    font-family: 'Cinzel Decorative';
+    font-size: 0.8rem;
+}
+
+.navbar-brand {
+    font-size: 1rem;
+}
+
+.lead {
+    font-family: 'Cinzel Decorative';
+}
+
+/* HOME */
+
+.home {
+    background-image: url("images/home02.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100vw;
+    margin-left: 0;
+    height: 100vh;
+    object-fit: cover;
+}
+
+.a {
+    position: relative;
+    width: 18rem;
+}
+
+.a p {
+    position: absolute;
+	top: 8%;
+    left: 4.5rem;
+    color: #fff;
+    text-shadow: 2px 2px 3px #000;
+    font-family: 'Tangerine';
+    font-size: 30px;
+    padding: 0.8rem;
+}
+
+/*  NEWS    */
+
+.news-img img {
+    width: 40rem;
+    height: auto;
+    padding: 1rem;
+}
+
+/* Dogs */
+
+.all-dogs img {
+    width: 10rem;
+    padding: 0.6rem;
+}
+
+.carousel {
+    padding-top: 2rem;
+    padding-bottom: 9rem;
+}
+
+.carousel-item img {
+    max-height: 30rem;
+    object-fit: contain;
+}
+
+.dog {
+    padding: 3%;
+}
+
+.dog h2, h4 {
+    margin-bottom: 1.5rem;
+    font-family: 'Cinzel Decorative';
+}
+
+.dog a {
+    padding: 0;
+    font-size: 1rem;
+}
+
+.dog-header {
+    text-align: center;
+    font-size: 2rem;
+    padding: 1.4rem;
+}
+
+.dog-header a {
+    font-size: 2rem;
+}
+
+.back-to-top a {
+    text-align: center;
+    padding: 1.7rem;
+}
+
+hr {
+    padding: 2rem;
+}
+
+/* LITTERS */
+
+.top-puppies {
+    background-image: url("images/puppies-bigger.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    padding: 0;
+    margin: 0;
+}
+
+.top-puppies img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.litter-image img {
+    width: 13rem;
+    height: 21rem;
+}
+
+.litter-image .img-wide{
+    width: 25rem;
+}
+
+.profile-litter {
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+.litter-container {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+    padding: 1.3rem;
+    font-family: 'Cinzel Decorative';
+}
+
+.all-dogs {
+    padding: 1rem;
+}
+
+/* CONTACT */
+
+.contact {
+    width: 50%;
+    display: inline-block;
+    margin: 5% 25%;
+} 
+
+.lead {
+    font-weight: bold;
+}
+
+/* TRAININGS */
+
+H3, h4 {
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative';
+}
+
+.videos iframe {
+    padding: 5%;
+}
+
+/*  AVAILABLE   */
+
+.available-img img {
+    width: 30rem;
+    height: auto;
+    padding: 1rem;
+}
+
+/* GALLERY */
+
+.gallery-img img, p, h3 {
+    margin: 0.7rem;
+}
+
+.gallery-img img {
+    width: 30%;
+}
+
+/*  FOOTER  */
+
+footer {
+    width: 100%; 
+    text-align: center; 
+    background-color: rgb(231, 231, 231); 
+    position: fixed; 
+    bottom: 0;
+    height: 2rem;
+    padding: 0;
+}
+
+footer a {
+    color: black;
+    font-family: 'Cinzel Decorative';
+    font-size: 0.8rem;
+    top: 0;
+}
+
+/* MEDIA */
+
+@media screen and (min-width:993px) and (max-width: 1024px) {
+
+    .nav-item {
+        font-size: 0.6rem;
+    }
+    
+    .home {
+        height: 50vh;
+    }
+
+    .a {
+        position: relative;
+        /* margin-bottom: 30px; */
+        width: 18rem;
+    }
+   
+    
+    .a p {
+        position: absolute;
+        top: 3rem;
+        left: 3.5rem;
+        color: #fff;
+        text-shadow: 2px 2px 3px #000;
+        font-family: 'Tangerine';
+        font-size: 20px;
+        padding: 0.8rem;
+    }
+
+
+}
+
+@media screen and (min-width:601px) and (max-width: 992px) {
+
+    body {
+        left: auto;
+    }
+
+    .navbar {
+        height: initial;
+    }
+
+    .home {
+        /* background-image: none; */
+        width: 100%;
+        height: 50vh;
+    }
+
+    .home-bottom {
+        top: 0;
+    }
+
+    .a {
+        width: 100%;
+    }
+    
+    .a p {
+        position: relative;
+        left: 1%;
+    } 
+
+    .contact {
+        margin: 1%;
+        width: 98%;
+    }
+
+    .litter-image img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .litter-image .img-wide{
+        width: 100%;
+        height: auto;
+    }
+
+    .top-puppies {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-puppies img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-img {
+        padding-right: 7%;
+    }
+
+    .gallery-img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        padding: 1%;
+    }
+
+    .news-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .available-img {
+        width: 100%;
+    }
+
+    .all-dogs img {
+        width: 1.9rem;
+        padding: 0.1rem;
+    }
+
+    .dog-header {
+        font-size: 1.4rem;
+    }
+
+    .dog-header a {
+        font-size: 1.4rem;
+    }
+
+    .carousel-item img {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    body {
+        left: auto;
+    }
+
+    .navbar {
+        height: initial;
+    }
+
+    .home {
+        /* background-image: none; */
+        width: 100%;
+        height: auto;
+    }
+
+    .home-bottom {
+        top: 0;
+    }
+
+    .a {
+        width: 100%;
+    }
+    
+    .a p {
+        position: relative;
+        left: 1%;
+    } 
+
+    .contact {
+        margin: 1%;
+        width: 98%;
+    }
+
+    .litter-image img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .litter-image .img-wide{
+        width: 100%;
+        height: auto;
+    }
+
+    .top-puppies {
+        width: 100%;
+        height: auto;
+    }
+
+    .top-puppies img {
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery-img {
+        padding-right: 7%;
+    }
+
+    .gallery-img img {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+        padding: 1%;
+    }
+
+    .news-img img {
+        width: 100%;
+        height: auto;
+    }
+
+    .available-img {
+        width: 100%;
+    }
+
+    .all-dogs img {
+        width: 1.9rem;
+        padding: 0.1rem;
+    }
+
+    .dog-header {
+        font-size: 1.4rem;
+    }
+
+    .dog-header a {
+        font-size: 1.4rem;
+    }
+
+    .carousel-item img {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
