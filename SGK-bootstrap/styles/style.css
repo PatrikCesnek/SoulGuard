@@ -9,8 +9,17 @@ ul {
     
 }
 
+.top-image {
+    width: 100vw; 
+    height: 39vh; 
+    background-image: url('../images/top-background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+}
+
 .navbar-brand {
-    font-family: 'Tangerine';
+    font-family: 'Cinzel Decorative';
     font-weight: bolder;
 }
 
@@ -258,6 +267,15 @@ footer a {
 
 @media screen and (min-width:601px) and (max-width: 992px) {
 
+    .top-image {
+        width: 100vw; 
+        height: 17vh; 
+        background-image: url('../images/top-background.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+
     body {
         left: auto;
     }
@@ -356,6 +374,16 @@ footer a {
 }
 
 @media screen and (max-width: 600px) {
+
+
+    .top-image {
+        width: 100vw; 
+        height: 12vh; 
+        background-image: url('../images/top-background.png');
+        background-size: 100%;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
 
     body {
         left: auto;
