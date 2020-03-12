@@ -9,13 +9,23 @@ ul {
     
 }
 
+.navbar-mobile {
+    display: none;
+}
+
 .top-image {
     width: 100vw; 
-    height: 39vh; 
-    background-image: url('../images/top-background.png');
+    height: 33vh; 
+    /* background-image: url('../images/top-background01.png'); */
     background-size: 100%;
     background-repeat: no-repeat;
     object-fit: contain;
+}
+
+.top-image img {
+    width: 100%; 
+    height: auto; 
+   display: block;
 }
 
 .navbar-brand {
@@ -30,10 +40,16 @@ ul {
 .nav-item {
     font-family: 'Cinzel Decorative';
     font-size: 0.8rem;
+    text-shadow: 1px 1px 1px #333;
+}
+
+.navbar-nav a {
+    color: rgb(85, 99, 96);
 }
 
 .navbar-brand {
     font-size: 1rem;
+    color: black;
 }
 
 .lead {
@@ -43,13 +59,25 @@ ul {
 /* HOME */
 
 .home {
-    background-image: url("../images/home02.jpg");
+    /* background-image: url("../images/home02.jpg"); */
     background-repeat: no-repeat;
     background-size: 100%;
     width: 100vw;
     margin-left: 0;
-    height: 100vh;
-    object-fit: cover;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+.home img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.home nav {
+    text-shadow: 0.5px 0.5px 1px #000;
+    position: relative;
 }
 
 .a {
@@ -234,14 +262,37 @@ footer a {
 
 /* MEDIA */
 
-@media screen and (min-width:993px) and (max-width: 1180px) {
+@media screen and (min-width:993px) and (max-width: 1280px) {
+
+    .top-image {
+        width: 100vw; 
+        height: auto; 
+        /* background-image: url('../images/top-background01.png'); */
+        background-size: 100%;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        display: block;
+    }
+
+    .top-image img {
+        width: 100%; 
+        height: auto; 
+        object-fit: cover;
+        display: block;
+    }
+
 
     .nav-item {
         font-size: 0.6rem;
     }
+
+    .navbar-brand {
+        font-size: 0.6rem;
+    }
     
     .home {
-        height: 50vh;
+        height: auto;
+        display: block;
     }
 
     .a {
@@ -262,6 +313,9 @@ footer a {
         padding: 0.8rem;
     }
 
+    .home-bottom {
+        display: block;
+    }
 
 }
 
@@ -269,11 +323,17 @@ footer a {
 
     .top-image {
         width: 100vw; 
-        height: 17vh; 
-        background-image: url('../images/top-background.png');
+        height: 14vh; 
+        /* background-image: url('../images/top-background01.png'); */
         background-size: 100%;
         background-repeat: no-repeat;
-        object-fit: cover;
+        object-fit: contain;
+    }
+
+    .top-image img {
+        width: 100%; 
+        height: auto; 
+       display: block;
     }
 
     body {
@@ -287,23 +347,23 @@ footer a {
     .home {
         /* background-image: none; */
         width: 100%;
-        height: 50vh;
+        height: auto;
     }
 
     .home .nav-item {
-        text-shadow: 1px 1px 2px #000;
+        text-shadow: 0.5px 0.5px 1px #000;
     }
 
     .home-bottom {
         top: 0;
     }
 
-    .a {
+    /* .a {
         width: 100%;
-    }
+    } */
     
     .a p {
-        position: relative;
+        position: absolute;
         left: 1%;
     } 
 
@@ -375,14 +435,29 @@ footer a {
 
 @media screen and (max-width: 600px) {
 
+    .navbar-mobile {
+        display: initial;
+        
+    }
+
+    .navbar-mobile nav {
+        position: relative;
+        right: 0;
+    }
 
     .top-image {
         width: 100vw; 
-        height: 12vh; 
-        background-image: url('../images/top-background.png');
+        height: 10vh; 
         background-size: 100%;
         background-repeat: no-repeat;
         object-fit: cover;
+        display: block;
+    }
+
+    .top-image img {
+        width: 100%; 
+        height: auto; 
+        display: block;
     }
 
     body {
@@ -398,6 +473,10 @@ footer a {
         /* background-image: none; */
         width: 100%;
         height: auto;
+    }
+
+    .home nav {
+        display: none;
     }
 
     .home .nav-item {
