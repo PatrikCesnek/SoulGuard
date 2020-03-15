@@ -40,7 +40,11 @@ ul {
 .nav-item {
     font-family: 'Cinzel Decorative';
     font-size: 0.8rem;
-    text-shadow: 1px 1px 1px #333;
+    text-shadow: 2px 2px 3px #000;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    color: #fff;
 }
 
 .navbar-nav a {
