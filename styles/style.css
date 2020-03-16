@@ -40,11 +40,11 @@ ul {
 .nav-item {
     font-family: 'Cinzel Decorative';
     font-size: 0.8rem;
-    text-shadow: 2px 2px 3px #000;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .navbar-light .navbar-nav .nav-item {
-    color: #fff;
+    color: rgb(173, 172, 172);
 }
 
 .navbar-nav a {
@@ -53,7 +53,8 @@ ul {
 
 .navbar-brand {
     font-size: 1rem;
-    color: black;
+    color: #222;
+    text-shadow: 1px 1px 1px #000;
 }
 
 .lead {
@@ -79,10 +80,10 @@ ul {
     display: block;
 }
 
-.home nav {
+/* .home nav {
     text-shadow: 0.5px 0.5px 1px #000;
     position: relative;
-}
+} */
 
 .a {
     position: relative;
@@ -287,11 +288,12 @@ footer a {
 
 
     .nav-item {
-        font-size: 0.6rem;
+        font-size: 0.73rem;
     }
 
     .navbar-brand {
-        font-size: 0.6rem;
+        font-size: 0.73rem;
+        margin-right: 0;
     }
     
     .home {
@@ -355,7 +357,7 @@ footer a {
     }
 
     .home .nav-item {
-        text-shadow: 0.5px 0.5px 1px #000;
+        text-shadow: 1px 1px 1px #000;
     }
 
     .home-bottom {
@@ -483,9 +485,9 @@ footer a {
         display: none;
     }
 
-    .home .nav-item {
+    /* .home .nav-item {
         text-shadow: 1px 1px 2px #000;
-    }
+    } */
 
     .home-bottom {
         top: 0;
