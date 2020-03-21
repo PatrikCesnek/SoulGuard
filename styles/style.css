@@ -181,6 +181,19 @@ hr {
     height: 21rem;
 }
 
+.litter-image .img-semiwide {
+    width: 16rem;
+}
+
+.profile-long {
+    width: 70%;
+    margin-bottom: 6rem;
+}
+
+.litter-image .img-taller {
+    height: 27rem;
+}
+
 .litter-image .img-wide{
     width: 25rem;
 }
@@ -513,7 +526,22 @@ footer a {
         object-fit: contain;
     }
 
+    .profile-long {
+        width: 100%;
+        height: auto;
+    }
+
     .litter-image .img-wide{
+        width: 100%;
+        height: auto;
+    }
+
+    .litter-image .img-semiwide{
+        width: 100%;
+        height: auto;
+    }
+
+    .litter-image .img-taller{
         width: 100%;
         height: auto;
     }
